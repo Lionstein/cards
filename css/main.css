@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
   background-color: #f2f2f2;
   font-family: Georgia, serif;
-  line-height: 1.5rem;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -16,9 +16,9 @@ html {
   text-align: center;
 }
 
-.cards li{
+.cards li {
   display: inline-block;
-  margin: 0.5em 1em;
+  margin: 0 .5em 1em;
   max-width: 20em;
   padding: 1em;
   background-color: #fff;
